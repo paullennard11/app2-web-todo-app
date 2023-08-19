@@ -10,6 +10,11 @@ with col1:
 with col2:
     st.title("Paul Lennard")
     content = """
-    Hi, I am Lennard! I am a Python programmer.
+    Hi, I am Paul Lennard! I am a data scientist and software developer. I have a passion for creating meaningful and insightful data-driven applications. With a background in computer science and machine learning, I enjoy solving complex problems using Python and various data analysis tools.
     """
     st.info(content)
+
+content2 = """
+Below you can find some of the apps I have built in Python. Feel free to contact me!
+"""
+st.write(content2)
